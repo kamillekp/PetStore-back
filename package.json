@@ -1,0 +1,24 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodemon ./src/index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.17",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.4.18",
+    "nodemon": "^2.0.7",
+    "npx": "^10.2.2"
+  },
+  "scripts": {
+    "serve": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kamille Konarzewski e Lara Hernandes",
+  "license": "ISC"
+}
